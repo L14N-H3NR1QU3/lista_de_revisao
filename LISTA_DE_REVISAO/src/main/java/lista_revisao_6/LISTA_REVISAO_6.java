@@ -18,7 +18,7 @@ public class LISTA_REVISAO_6 {
             System.out.println("Digite uma nota: ");
             String resp = s.next();
             try{
-                soma += Integer.parseInt(resp);
+                soma += Float.parseFloat(resp);
             }
             catch(NumberFormatException e){
                 System.out.println("Numero invalido!");
