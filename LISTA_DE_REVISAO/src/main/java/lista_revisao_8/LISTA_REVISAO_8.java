@@ -27,10 +27,10 @@ public class LISTA_REVISAO_8 {
                     System.out.println("Numero invalido!");
                 }
                 if((soma/3) >= 6){
-                    System.out.println("Passou!");
+                    System.out.println("Madia: "+soma+" Passou!");
                 }
                 else{
-                    System.out.println("Reprovado!");
+                    System.out.println("Madia: "+soma+"Reprovado!");
                 }
             }
             System.out.println("Deseja calcular novamente? (1-Sim/2-Nao)");
